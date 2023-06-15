@@ -53,3 +53,17 @@ public:
 		}
 	}
 };
+
+int main() {
+	StackArray s; // Deklarasikan variabel s yang merupakan objek dari kelas dari SA --> ini digunakan untuk mengakses metode dan data dalam kelas SA
+	while (true) {
+		cout << endl;
+		cout << "\n**Stack Menu***\n";
+		cout << "1. Push\n";
+		cout << "2. Pop\n";
+		cout << "3. Display\n";
+		cout << "4. Exit\n";
+		cout << "\nEnter your choice: ";
+		
+	}
+}
