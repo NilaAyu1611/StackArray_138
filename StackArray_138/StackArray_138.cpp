@@ -16,3 +16,8 @@ void push() { // mengembalikan nilai Element(void)... (gara2 ada parametrenya)ja
 	string element;
 	getline(cin, element);
 
+	if (top == 4) {		// Step 1
+		cout << "Number of data exceeds the limit." << endl;
+		return;
+	}
+
