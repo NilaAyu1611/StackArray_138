@@ -21,3 +21,8 @@ void push() { // mengembalikan nilai Element(void)... (gara2 ada parametrenya)ja
 		return;
 	}
 	top++;		//Step 2
+	stack_array[top] = element;		//Step 3
+	cout << endl;
+	cout << element << " ditambahakan(pushed)" << endl;
+
+}
