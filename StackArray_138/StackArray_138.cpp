@@ -20,4 +20,4 @@ void push() { // mengembalikan nilai Element(void)... (gara2 ada parametrenya)ja
 		cout << "Number of data exceeds the limit." << endl;
 		return;
 	}
-
+	top++;		//Step 2
