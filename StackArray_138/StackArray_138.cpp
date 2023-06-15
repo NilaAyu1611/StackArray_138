@@ -66,5 +66,7 @@ int main() {
 		cout << "\nEnter your choice: ";
 		string input;
 		getline(cin, input); //untuk mendefinisikan cinnya di variabel inputnya
-		
+		char ch = (input.empty() ? '0' : input[0]);
+		switch (ch) { // method udah ditentukan
+
 }
