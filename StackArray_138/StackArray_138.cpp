@@ -11,3 +11,7 @@ public:
 	StackArray() {
 		top = -1;
 	}
+void push() { // mengembalikan nilai Element(void)... (gara2 ada parametrenya)jadi gunain return tadi... tapi kalo semisal bukan void, tapi string itu kalo nggak ada returnnya maka nanti eror. 
+	cout << "\nEnter a element: ";
+	string element;
+
